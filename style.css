@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgba(47, 107, 79, 1);
+    width: 1440px;
+    height: 745px;
+}
+
+.company__name {
+    padding: 27px 0px 0px 115px;
+    display: flex;
+}
+
+.name {
+    font-size: 20px;
+    color: white;
+    padding: 11px 0px 11px 8px;
+}
+
+.business {
+    padding-top: 135px;
+    margin: 0 auto;
+    width: 999px;
+}
+
+.create__product {
+    color: white;
+    font-size: 64px;
+    line-height: 87.16px;
+    width: 900px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.about {
+    width: 857px;
+    padding: 0px 71px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    opacity: 71%;
+}
+
+.info {
+    background-color: rgba(249, 249, 249, 1);
+    width: 1440px;
+    height: 870px;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 49.03px;
+    padding: 89px 0px 4% 115px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1147px;
+    gap: 54px 140px;
+    margin-left: 147px ;
+}
+
+.card {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 6px 24px 0px #2A2C3D29;
+    width: 289px;
+    height: 256px;
+    text-align: center;
+}
+
+.card__logo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.services__name {
+    font-size: 24px;
+    line-height: 32.68px;
+    padding-bottom: 16px;
+}
+
+.services__info {
+    font-size: 18px;
+    opacity: 71%;
+    padding: 0px 24px 0px 24px;
+}
+
+.contact {
+    width: 1440px;
+    height: 425px;
+    background: #2F6B4F;
+    text-align: center;
+}
+
+.contact__info {
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 65.37px;
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 661px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 23px 32px;
+    color: #2A2C3D;
+}
